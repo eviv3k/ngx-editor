@@ -1,4 +1,4 @@
-import { type EditorState, NodeSelection } from 'prosemirror-state';
+import type { EditorState, NodeSelection } from 'prosemirror-state';
 import type { Command } from 'prosemirror-commands';
 
 import { Dispatch } from './types';
