@@ -1,6 +1,6 @@
 import type { NodeType, Node as ProseMirrorNode } from 'prosemirror-model';
 import type { EditorState, Transaction } from 'prosemirror-state';
-import { type Command, setBlockType } from 'prosemirror-commands';
+import type { Command, setBlockType } from 'prosemirror-commands';
 
 import { getSelectionNodes } from 'ngx-editor/helpers';
 
